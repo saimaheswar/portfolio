@@ -50,6 +50,24 @@ export default function AboutPage() {
             ))}
           </AnimatedSection>
 
+          <AnimatedSection direction="up" delay={0.15}>
+            <div className="grid grid-cols-2 sm:grid-cols-4 rounded-lg border border-border bg-muted/40 divide-x divide-y sm:divide-y-0 divide-border overflow-hidden">
+              {aboutConfig.stats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="p-4 sm:p-6 text-center flex flex-col items-center justify-center gap-1"
+                >
+                  <span className="font-heading text-2xl sm:text-3xl text-primary">
+                    {stat.value}
+                  </span>
+                  <span className="text-xs sm:text-sm text-muted-foreground leading-snug">
+                    {stat.label}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </AnimatedSection>
+
           <AnimatedSection direction="up" delay={0.2}>
             <h2 className="font-heading text-2xl mb-4">What I Focus On</h2>
             <div className="grid gap-4 sm:grid-cols-2">

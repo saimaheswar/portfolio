@@ -5,7 +5,7 @@ export const siteConfig = {
   username: "saimaheswar",
   description:
     "Sai Maheswar Venkata - Full-stack and AI engineer with 5+ years of experience building Python web applications, backend systems, and machine learning services. Explore my projects, professional experience, and education.",
-  url: "https://saimaheswar.dev",
+  url: "https://portfolio-smoky-phi-97.vercel.app",
   links: {
     twitter: "",
     github: "https://github.com/saimaheswar",
