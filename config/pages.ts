@@ -25,7 +25,7 @@ export const pagesConfig: PagesConfig = {
     description: "A bit about who I am and what I care about.",
     metadata: {
       title: "About",
-      description: "About Sai Maheswar Venkata — full-stack and AI engineer.",
+      description: "About Sai Maheswar Venkata, full-stack and AI engineer.",
     },
   },
   skills: {

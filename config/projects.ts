@@ -116,7 +116,7 @@ export const Projects: ProjectInterface[] = [
     descriptionDetails: {
       paragraphs: [
         "MigrateLedger tackles a problem every backend engineer eventually runs into: migrating a live database without taking it offline.",
-        "It captures change events from the source database, replays them against the target, and continuously reconciles both sides at the row level so a migration can be verified — and safely cut over — with confidence.",
+        "It captures change events from the source database, replays them against the target, and continuously reconciles both sides at the row level, so a migration can be verified and safely cut over without the usual leap of faith.",
       ],
       bullets: [
         "Implemented change-data-capture based replication for zero-downtime migrations.",
@@ -147,7 +147,7 @@ export const Projects: ProjectInterface[] = [
     descriptionDetails: {
       paragraphs: [
         "Resume Agent is a local-first tool that automates the tedious part of job hunting: tailoring a resume for every application.",
-        "It reads a job description, uses Gemini's free tier to rewrite and prioritize resume content around what the role actually asks for, and renders the result into a polished PDF with RenderCV — all running locally, no paid API keys required.",
+        "It reads a job description, uses Gemini's free tier to rewrite and prioritize resume content around what the role actually asks for, and renders the result into a polished PDF with RenderCV. It all runs locally, so no paid API keys required.",
       ],
       bullets: [
         "Built a local agent that rewrites resume content to match a target job description.",

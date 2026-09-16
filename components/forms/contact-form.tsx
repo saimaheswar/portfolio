@@ -53,7 +53,7 @@ export function ContactForm() {
       `Portfolio contact from ${values.name}`
     );
     const body = encodeURIComponent(
-      `${values.message}\n\n— ${values.name} (${values.email})${
+      `${values.message}\n\nFrom: ${values.name} (${values.email})${
         values.social ? `\n${values.social}` : ""
       }`
     );
